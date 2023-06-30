@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">JANGID CAFE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="" routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{exact:true}"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="menu" routerLinkActive="active-link"><b>Menu</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about" routerLinkActive="active-link"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact" routerLinkActive="active-link"><b>Contact</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="location" routerLinkActive="active-link"><b>Location</b></a>
+        </li>
+        <li>
+          <a routerLink="login" routerLinkActive="active-link">
+            <button class="btn btn-light"><b>LogIn</b></button></a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

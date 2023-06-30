@@ -1,0 +1,20 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: beige;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+    
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: goldenrod;
+}
+
